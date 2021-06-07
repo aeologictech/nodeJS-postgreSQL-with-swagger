@@ -1,7 +1,7 @@
 {
-  "name": "iRAD",
+  "name": "nodeJS-postgresql-with-swagger",
   "version": "1.0.0",
-  "description": "iRAD Backend API & Services ",
+  "description": "nodeJS-postgresql-with-swagger API & Services ",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
