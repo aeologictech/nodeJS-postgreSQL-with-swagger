@@ -1,0 +1,29 @@
+{
+  "development": {
+  "url" : "postgres://postgres:12345@localhost:5432/demo",
+  "username": "postgres",
+  "password": "12345",
+  "database": "demo",
+  "host": "127.0.0.1",
+  "port": 5432,
+  "dialect": "postgres"
+  },
+  "test": {
+  "url" : "postgres://postgres:password@localhost:5432/demo",
+  "username": "postgres",
+  "password": "12345",
+  "database": "demo",
+  "host": "127.0.0.1",
+  "port": 5432,
+  "dialect": "postgres"
+  },
+  "production": {
+  "url" : "postgres://postgres:password@localhost:5432/demo",
+  "username": "postgres",
+  "password": "12345",
+  "database": "demo",
+  "host": "127.0.0.1",
+  "port": 5432,
+   "dialect": "postgres"
+  }
+}
