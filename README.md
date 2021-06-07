@@ -1,8 +1,6 @@
  # Node Js Project Structure
  
- Recently I have started working on a new project and the issue that I faced was spending a lot of time building the project structure based on the best practices, especially with javascript that has a lot of approaches and bad parts, I couldn't find any place that wraps the best practices into a single project ,so I decided to make it on my own.
- 
-in this repository, I don't aim to provide an optimal solution as each project have its own necessity but to help anyone that is starting with a node js project and can't find any inspiration on how to start building the project to take this project as the starting point.
+In this repository, I am just analysis several project done earlier and finalize a nodejs project structure as per the basic requirement of any project.Now here you have some idea that how to start building the project to take this project as the starting point.
  
  some of the good practices followed in this repository:
  - Async/Await support 
@@ -18,15 +16,16 @@ in this repository, I don't aim to provide an optimal solution as each project h
  
  # How to start the project 
  
- first you clone the project using the following command :
+Clone or download zip to your machine then hit this :
+
+## Installation
+*for newbies : Clone or download zip to your machine then hit this :
+
+	npm install
+
+## Configuration (database)
  
- git clone https://github.com/AlaaMezian/NodeJs-backend-structure.git
- 
- install node version 8.11.0 or use nvm to downgrade your node version 
- 
- delete the existing package.lock.json and run npm install 
- 
- then you create a postgres database Named iLrn with the following credintials 
+ Create a postgres database named demo with the following credintials 
  
  username : postgres 
  
@@ -35,8 +34,9 @@ in this repository, I don't aim to provide an optimal solution as each project h
  run the migration using the following command :
  npx sequelize-cli db:migrate
  
- Finally you run npm start 
+ ## Run the project
+ npm start
+ 
+ ## API Documentation 
+ http://localhost:3000/api/docs
   
-Future improvements utilize compenent based structe
-
-please feel free to :star:  happy programming :v: 
