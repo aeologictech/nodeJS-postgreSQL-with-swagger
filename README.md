@@ -1,4 +1,4 @@
- # Node Js Project Structure
+ # Node Js Project Structure With Swagger API Documentation
  
 In this repository, I am just analysis several project done earlier and finalize a nodejs project structure as per the basic requirement of any project.Now here you have some idea that how to start building the project to take this project as the starting point.
  
