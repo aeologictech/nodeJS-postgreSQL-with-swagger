@@ -11,8 +11,7 @@ In this repository, I am just analysis several project done earlier and finalize
  - Open Api Specification implemented through swagger-jsdocs and swagger-ui
  - Jwt implementation 
  - Enviroment variables to hold configuration values .env file
- - OOP (object oriented programming)
- - i've followed [airbnb](https://github.com/airbnb/javascript) Coding standard with a eslint ,help to keep thing into prespective.
+ - OOP (object oriented programming) 
  
  # How to start the project 
  
